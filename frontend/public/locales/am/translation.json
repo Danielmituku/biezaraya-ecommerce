@@ -1,0 +1,38 @@
+{
+  "checkout": {
+    "title": "የመከፈል ሂደት",
+    "shippingAddress": "የመላኪያ አድራሻ",
+    "paymentMethod": "የክፍያ ዘዴ",
+    "placeOrder": "ትዕዛዝ አስገባ",
+    "orderSummary": "የትዕዛዝ ማጠቃለያ",
+    "confirmOrder": "ትዕዛዝ አረጋግጥ",
+    "thankYou": "ለግዢዎ እናመሰግናለን!"
+  },
+  "user": {
+    "profile": "የኔ መገለጫ",
+    "orders": "ትዕዛዞቼ",
+    "wishlist": "የምፈልጋቸው",
+    "settings": "ቅንብሮች",
+    "logout": "ውጣ"
+  },
+  "orders": {
+    "orderId": "የትዕዛዝ መለያ",
+    "status": "ሁኔታ",
+    "total": "ጠቅላላ",
+    "date": "ቀን",
+    "details": "ዝርዝሮች",
+    "tracking": "መከታተያ"
+  },
+  "notifications": {
+    "itemAdded": "እቃ ወደ ጋሪ ታክሏል",
+    "itemRemoved": "እቃ ከጋሪ ተወግዷል",
+    "updated": "በተሳካ ሁኔታ ዘመነ",
+    "orderPlaced": "ትዕዛዝ ተገብቷል"
+  },
+  "errors": {
+    "network": "የኔትዎርክ ችግር። እባክዎን ደግመው ይሞክሩ።",
+    "unauthorized": "ያልተፈቀደ መዳረሻ",
+    "notFound": "ገፁ አልተገኘም",
+    "form": "እባክዎን ሁሉንም የሚያስፈልጉ መረጃዎች ያስገቡ"
+  }
+}

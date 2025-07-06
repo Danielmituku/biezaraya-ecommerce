@@ -1,0 +1,19 @@
+# backend/.gitignore
+
+# Node.js
+node_modules/
+dist/
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Temp
+tmp/
+.cache/

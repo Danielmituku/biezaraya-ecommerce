@@ -1,0 +1,38 @@
+{
+  "checkout": {
+    "title": "Checkout",
+    "shippingAddress": "Shipping Address",
+    "paymentMethod": "Payment Method",
+    "placeOrder": "Place Order",
+    "orderSummary": "Order Summary",
+    "confirmOrder": "Confirm Order",
+    "thankYou": "Thank you for your purchase!"
+  },
+  "user": {
+    "profile": "My Profile",
+    "orders": "My Orders",
+    "wishlist": "Wishlist",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "orders": {
+    "orderId": "Order ID",
+    "status": "Status",
+    "total": "Total",
+    "date": "Date",
+    "details": "Details",
+    "tracking": "Tracking"
+  },
+  "notifications": {
+    "itemAdded": "Item added to cart",
+    "itemRemoved": "Item removed from cart",
+    "updated": "Successfully updated",
+    "orderPlaced": "Order placed successfully"
+  },
+  "errors": {
+    "network": "Network error. Please try again.",
+    "unauthorized": "Unauthorized access",
+    "notFound": "Page not found",
+    "form": "Please fill all required fields"
+  }
+}

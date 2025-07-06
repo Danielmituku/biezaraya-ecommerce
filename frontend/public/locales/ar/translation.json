@@ -1,0 +1,38 @@
+{
+  "checkout": {
+    "title": "الدفع",
+    "shippingAddress": "عنوان الشحن",
+    "paymentMethod": "طريقة الدفع",
+    "placeOrder": "إرسال الطلب",
+    "orderSummary": "ملخص الطلب",
+    "confirmOrder": "تأكيد الطلب",
+    "thankYou": "شكرًا لشرائك!"
+  },
+  "user": {
+    "profile": "ملفي الشخصي",
+    "orders": "طلباتي",
+    "wishlist": "المفضلة",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "orders": {
+    "orderId": "رقم الطلب",
+    "status": "الحالة",
+    "total": "الإجمالي",
+    "date": "التاريخ",
+    "details": "تفاصيل",
+    "tracking": "تتبع"
+  },
+  "notifications": {
+    "itemAdded": "تمت إضافة العنصر إلى السلة",
+    "itemRemoved": "تمت إزالة العنصر من السلة",
+    "updated": "تم التحديث بنجاح",
+    "orderPlaced": "تم إرسال الطلب بنجاح"
+  },
+  "errors": {
+    "network": "خطأ في الشبكة. حاول مرة أخرى.",
+    "unauthorized": "دخول غير مصرح به",
+    "notFound": "الصفحة غير موجودة",
+    "form": "يرجى ملء جميع الحقول المطلوبة"
+  }
+}
