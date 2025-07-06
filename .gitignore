@@ -13,6 +13,7 @@ pnpm-debug.log*
 .env.production.local
 
 # Build outputs
+- /frontend
 /frontend/build
 /backend/dist
 /docs/build
