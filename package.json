@@ -1,0 +1,67 @@
+{
+  "name": "Biezaraya",
+  "version": "1.0.0",
+  "description": "Full-stack clothing ecommerce platform with multi-language support and Chapa payment integration",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:start\"",
+    "start": "concurrently \"npm run backend:start\" \"npm run frontend:start\"",
+    "build": "npm run frontend:build && npm run backend:build",
+    "test": "concurrently \"npm run frontend:test\" \"npm run backend:test\"",
+    "lint": "concurrently \"npm run frontend:lint\" \"npm run backend:lint\"",
+    "format": "concurrently \"npm run frontend:format\" \"npm run backend:format\"",
+    "install:all": "npm install && npm run frontend:install && npm run backend:install",
+    "clean": "rm -rf node_modules frontend/node_modules backend/node_modules",
+    "reset": "npm run clean && npm run install:all",
+    
+    "frontend:start": "cd frontend && npm start",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:test": "cd frontend && npm test",
+    "frontend:lint": "cd frontend && npm run lint",
+    "frontend:format": "cd frontend && npm run format",
+    "frontend:install": "cd frontend && npm install",
+    
+    "backend:start": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:build": "cd backend && npm run build",
+    "backend:test": "cd backend && npm test",
+    "backend:lint": "cd backend && npm run lint",
+    "backend:format": "cd backend && npm run format",
+    "backend:install": "cd backend && npm install",
+    "backend:seed": "cd backend && npm run seed",
+    
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:build": "docker-compose build",
+    "docker:clean": "docker-compose down -v --rmi all"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "cross-env": "^7.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "ecommerce",
+    "fashion",
+    "react",
+    "nodejs",
+    "mongodb",
+    "chapa",
+    "multilingual",
+    "rtl"
+  ],
+  "author": "Daniel Mituku",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielMituku/Biezaraya.git"
+  }
+}
